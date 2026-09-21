@@ -10,11 +10,6 @@ function Footer() {
         borderTop: "1px solid",
         borderColor: "divider",
         backgroundColor: "background.paper",
-        position: "fixed",
-        bottom: 0,
-        left: 0,
-        right: 0,
-        zIndex: 1100,
       }}
     >
       <Container maxWidth="lg">
