@@ -1,0 +1,251 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "The Future of Artificial Intelligence",
+      "description": "How artificial intelligence is changing our everyday lives.",
+      "content": "Artificial intelligence is becoming an important part of modern technology. From voice assistants to autonomous systems, AI is changing many areas of our everyday lives. In the future, we can expect even more applications of artificial intelligence in medicine, education, transportation and business.",
+      "category": "AI",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995",
+      "date": "2026-09-18",
+      "comments": [
+        {
+          "id": 1,
+          "author": "Anna",
+          "text": "Very interesting article about the future of AI!",
+          "date": "2026-09-18T14:30:00"
+        },
+        {
+          "id": 2,
+          "author": "Max",
+          "text": "AI will definitely become more important in the future.",
+          "date": "2026-09-18T16:45:00"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "React: Why Component-Based Development Matters",
+      "description": "An introduction to component-based development with React.",
+      "content": "React allows developers to build user interfaces from reusable components. Instead of creating one large application, developers can divide the interface into smaller and independent parts. This approach makes applications easier to maintain, test and expand.",
+      "category": "React",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+      "date": "2026-09-16",
+      "comments": [
+        {
+          "id": 3,
+          "author": "Anna",
+          "text": "React components make large applications much easier to manage.",
+          "date": "2026-09-16T12:20:00"
+        },
+        {
+          "id": 4,
+          "author": "Max",
+          "text": "Good introduction to component-based development.",
+          "date": "2026-09-16T15:10:00"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "JavaScript Features Every Developer Should Know",
+      "description": "A look at useful modern JavaScript features.",
+      "content": "Modern JavaScript provides many powerful features that make development easier. Arrow functions, destructuring, modules, promises and async/await are now standard tools for frontend developers. Understanding these features is essential when building modern web applications.",
+      "category": "JavaScript",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479",
+      "date": "2026-09-14",
+      "comments": [
+        {
+          "id": 5,
+          "author": "Anna",
+          "text": "Async and await are some of my favorite JavaScript features.",
+          "date": "2026-09-14T10:15:00"
+        },
+        {
+          "id": 6,
+          "author": "Max",
+          "text": "Destructuring makes JavaScript code much cleaner.",
+          "date": "2026-09-14T13:40:00"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "How APIs Work in Modern Web Applications",
+      "description": "Understanding communication between frontend applications and servers.",
+      "content": "APIs allow different software applications to communicate with each other. In frontend development, APIs are commonly used to load and modify data from a server. The fetch API provides a simple way to make HTTP requests from a React application.",
+      "category": "Web Development",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+      "date": "2026-09-12",
+      "comments": [
+        {
+          "id": 7,
+          "author": "Anna",
+          "text": "The explanation of APIs is very clear.",
+          "date": "2026-09-12T18:00:00"
+        },
+        {
+          "id": 8,
+          "author": "Max",
+          "text": "I use APIs in almost every project.",
+          "date": "2026-09-12T19:20:00"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Understanding HTTP Methods",
+      "description": "GET, POST, PUT, PATCH and DELETE explained.",
+      "content": "HTTP methods define what action should be performed on a resource. GET is normally used to retrieve data, POST to create new data, PUT and PATCH to update data, and DELETE to remove data. Understanding these methods is important when working with REST APIs.",
+      "category": "Web Development",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+      "date": "2026-09-10",
+      "comments": [
+        {
+          "id": 9,
+          "author": "Anna",
+          "text": "PATCH is especially useful when updating only part of an object.",
+          "date": "2026-09-10T11:30:00"
+        },
+        {
+          "id": 10,
+          "author": "Max",
+          "text": "A useful overview of HTTP methods.",
+          "date": "2026-09-10T15:00:00"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "CSS Grid vs Flexbox",
+      "description": "When should you use CSS Grid and when should you use Flexbox?",
+      "content": "CSS Grid and Flexbox are two essential layout systems. Flexbox is especially useful for one-dimensional layouts, while Grid is designed for two-dimensional layouts. Understanding the differences allows developers to create responsive and flexible interfaces.",
+      "category": "CSS",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2",
+      "date": "2026-09-08",
+      "comments": [
+        {
+          "id": 11,
+          "author": "Anna",
+          "text": "I usually prefer Flexbox, but Grid is great for complex layouts.",
+          "date": "2026-09-08T11:30:00"
+        },
+        {
+          "id": 12,
+          "author": "Max",
+          "text": "This helped me understand the difference between Grid and Flexbox.",
+          "date": "2026-09-08T14:15:00"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Responsive Web Design Basics",
+      "description": "How to make websites work well on different screen sizes.",
+      "content": "Responsive design ensures that a website works correctly on smartphones, tablets and desktop computers. Developers can use flexible layouts, media queries and responsive units to adapt the interface to different screen sizes.",
+      "category": "CSS",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1547658719-da2b51169166",
+      "date": "2026-09-06",
+      "comments": [
+        {
+          "id": 13,
+          "author": "Anna",
+          "text": "Responsive design is essential for modern websites.",
+          "date": "2026-09-06T13:45:00"
+        },
+        {
+          "id": 14,
+          "author": "Max",
+          "text": "Media queries are really useful for responsive layouts.",
+          "date": "2026-09-06T16:20:00"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "What Is Frontend Development?",
+      "description": "An introduction to the world of frontend development.",
+      "content": "Frontend development focuses on the part of a website or application that users interact with. HTML, CSS and JavaScript form the foundation of frontend development, while modern frameworks such as React provide tools for building complex interfaces.",
+      "category": "Web Development",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      "date": "2026-09-04",
+      "comments": [
+        {
+          "id": 15,
+          "author": "Anna",
+          "text": "Frontend development is a very interesting field.",
+          "date": "2026-09-04T09:30:00"
+        },
+        {
+          "id": 16,
+          "author": "Max",
+          "text": "HTML, CSS and JavaScript are a great foundation.",
+          "date": "2026-09-04T12:45:00"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Introduction to Git and GitHub",
+      "description": "Why version control is an essential skill for developers.",
+      "content": "Git is a distributed version control system that allows developers to track changes in their projects. GitHub provides a platform for storing Git repositories and collaborating with other developers. Both tools are commonly used in professional software development.",
+      "category": "Development",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498",
+      "date": "2026-09-02",
+      "comments": [
+        {
+          "id": 17,
+          "author": "Anna",
+          "text": "Git is one of the first tools every developer should learn.",
+          "date": "2026-09-02T09:30:00"
+        },
+        {
+          "id": 18,
+          "author": "Max",
+          "text": "Git makes working on projects much safer.",
+          "date": "2026-09-02T14:10:00"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Web Accessibility Basics",
+      "description": "How to make websites accessible to more people.",
+      "content": "Web accessibility means designing websites that can be used by people with different abilities. Semantic HTML, keyboard navigation, sufficient contrast and meaningful labels are some of the important principles of accessible web development.",
+      "category": "Web Development",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1558655146-d09347e92766",
+      "date": "2026-08-30",
+      "comments": [
+        {
+          "id": 19,
+          "author": "Anna",
+          "text": "Accessibility is often overlooked but extremely important.",
+          "date": "2026-08-30T17:20:00"
+        },
+        {
+          "id": 20,
+          "author": "Max",
+          "text": "Good article. Every website should consider accessibility.",
+          "date": "2026-08-30T19:00:00"
+        }
+      ]
+    }
+  ]
+}
