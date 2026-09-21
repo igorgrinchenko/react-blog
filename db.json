@@ -11,23 +11,23 @@
       "id": 1,
       "title": "The Future of Artificial Intelligence",
       "description": "How artificial intelligence is changing our everyday lives.",
-      "content": "Artificial intelligence is becoming an important part of modern technology. From voice assistants to autonomous systems, AI is changing many areas of our everyday lives. In the future, we can expect even more applications of artificial intelligence in medicine, education, transportation and business.",
+      "content": "Artificial intelligence is becoming an important part of modern technology. From voice assistants to autonomous systems, AI is changing many areas of our everyday lives. In the future, we can expect even more applications of artificial intelligence in medicine, education, transportation and business.\n\nThis topic is especially relevant when building modern web applications because developers need to balance functionality, maintainability and user experience. A good implementation starts with a clear understanding of the problem and the responsibilities of each part of the application.\n\nIn practice, developers should separate concerns and avoid putting unrelated logic into the same component or service. Clear naming, predictable data flow and small reusable pieces make a project easier to understand and debug. Testing with realistic data also helps reveal problems that may not be visible in a small prototype.\n\nAnother important consideration is reliability. Applications should handle loading states, invalid input, failed requests and unexpected data instead of assuming that everything will always work. These details often make the difference between a simple demonstration and a robust application.\n\nThe best solution also depends on the project requirements. Developers should avoid unnecessary complexity and choose tools that solve the actual problem. Starting with a clear and simple architecture makes it easier to improve the application later when new requirements appear.",
       "category": "AI",
       "author": "Admin",
-      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
       "date": "2026-09-18",
       "comments": [
         {
           "id": 1,
           "author": "Anna",
-          "text": "Very interesting article about the future of AI!",
-          "date": "2026-09-18T14:30:00"
+          "text": "Very useful article about AI.",
+          "date": "2026-09-18T12:00:00"
         },
         {
           "id": 2,
           "author": "Max",
-          "text": "AI will definitely become more important in the future.",
-          "date": "2026-09-18T16:45:00"
+          "text": "Good explanation with practical examples.",
+          "date": "2026-09-18T15:30:00"
         }
       ]
     },
@@ -35,23 +35,23 @@
       "id": 2,
       "title": "React: Why Component-Based Development Matters",
       "description": "An introduction to component-based development with React.",
-      "content": "React allows developers to build user interfaces from reusable components. Instead of creating one large application, developers can divide the interface into smaller and independent parts. This approach makes applications easier to maintain, test and expand.",
+      "content": "React allows developers to build user interfaces from reusable components. Instead of creating one large application, developers can divide the interface into smaller and independent parts. This approach makes applications easier to maintain, test and expand.\n\nThis topic is especially relevant when building modern web applications because developers need to balance functionality, maintainability and user experience. A good implementation starts with a clear understanding of the problem and the responsibilities of each part of the application.\n\nIn practice, developers should separate concerns and avoid putting unrelated logic into the same component or service. Clear naming, predictable data flow and small reusable pieces make a project easier to understand and debug. Testing with realistic data also helps reveal problems that may not be visible in a small prototype.\n\nAnother important consideration is reliability. Applications should handle loading states, invalid input, failed requests and unexpected data instead of assuming that everything will always work. These details often make the difference between a simple demonstration and a robust application.\n\nThe best solution also depends on the project requirements. Developers should avoid unnecessary complexity and choose tools that solve the actual problem. Starting with a clear and simple architecture makes it easier to improve the application later when new requirements appear.",
       "category": "React",
       "author": "Admin",
-      "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
       "date": "2026-09-16",
       "comments": [
         {
           "id": 3,
           "author": "Anna",
-          "text": "React components make large applications much easier to manage.",
-          "date": "2026-09-16T12:20:00"
+          "text": "Very useful article about React.",
+          "date": "2026-09-16T12:00:00"
         },
         {
           "id": 4,
           "author": "Max",
-          "text": "Good introduction to component-based development.",
-          "date": "2026-09-16T15:10:00"
+          "text": "Good explanation with practical examples.",
+          "date": "2026-09-16T15:30:00"
         }
       ]
     },
@@ -59,23 +59,23 @@
       "id": 3,
       "title": "JavaScript Features Every Developer Should Know",
       "description": "A look at useful modern JavaScript features.",
-      "content": "Modern JavaScript provides many powerful features that make development easier. Arrow functions, destructuring, modules, promises and async/await are now standard tools for frontend developers. Understanding these features is essential when building modern web applications.",
+      "content": "Modern JavaScript provides many powerful features that make development easier. Arrow functions, destructuring, modules, promises and async/await are now standard tools for frontend developers. Understanding these features is essential when building modern web applications.\n\nThis topic is especially relevant when building modern web applications because developers need to balance functionality, maintainability and user experience. A good implementation starts with a clear understanding of the problem and the responsibilities of each part of the application.\n\nIn practice, developers should separate concerns and avoid putting unrelated logic into the same component or service. Clear naming, predictable data flow and small reusable pieces make a project easier to understand and debug. Testing with realistic data also helps reveal problems that may not be visible in a small prototype.\n\nAnother important consideration is reliability. Applications should handle loading states, invalid input, failed requests and unexpected data instead of assuming that everything will always work. These details often make the difference between a simple demonstration and a robust application.\n\nThe best solution also depends on the project requirements. Developers should avoid unnecessary complexity and choose tools that solve the actual problem. Starting with a clear and simple architecture makes it easier to improve the application later when new requirements appear.",
       "category": "JavaScript",
       "author": "Admin",
-      "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479",
+      "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
       "date": "2026-09-14",
       "comments": [
         {
           "id": 5,
           "author": "Anna",
-          "text": "Async and await are some of my favorite JavaScript features.",
-          "date": "2026-09-14T10:15:00"
+          "text": "Very useful article about JavaScript.",
+          "date": "2026-09-14T12:00:00"
         },
         {
           "id": 6,
           "author": "Max",
-          "text": "Destructuring makes JavaScript code much cleaner.",
-          "date": "2026-09-14T13:40:00"
+          "text": "Good explanation with practical examples.",
+          "date": "2026-09-14T15:30:00"
         }
       ]
     },
@@ -83,23 +83,23 @@
       "id": 4,
       "title": "How APIs Work in Modern Web Applications",
       "description": "Understanding communication between frontend applications and servers.",
-      "content": "APIs allow different software applications to communicate with each other. In frontend development, APIs are commonly used to load and modify data from a server. The fetch API provides a simple way to make HTTP requests from a React application.",
+      "content": "APIs allow different software applications to communicate with each other. In frontend development, APIs are commonly used to load and modify data from a server. HTTP requests and JSON responses form the foundation of many modern web applications.\n\nThis topic is especially relevant when building modern web applications because developers need to balance functionality, maintainability and user experience. A good implementation starts with a clear understanding of the problem and the responsibilities of each part of the application.\n\nIn practice, developers should separate concerns and avoid putting unrelated logic into the same component or service. Clear naming, predictable data flow and small reusable pieces make a project easier to understand and debug. Testing with realistic data also helps reveal problems that may not be visible in a small prototype.\n\nAnother important consideration is reliability. Applications should handle loading states, invalid input, failed requests and unexpected data instead of assuming that everything will always work. These details often make the difference between a simple demonstration and a robust application.\n\nThe best solution also depends on the project requirements. Developers should avoid unnecessary complexity and choose tools that solve the actual problem. Starting with a clear and simple architecture makes it easier to improve the application later when new requirements appear.",
       "category": "Web Development",
       "author": "Admin",
-      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+      "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479",
       "date": "2026-09-12",
       "comments": [
         {
           "id": 7,
           "author": "Anna",
-          "text": "The explanation of APIs is very clear.",
-          "date": "2026-09-12T18:00:00"
+          "text": "Very useful article about Web Development.",
+          "date": "2026-09-12T12:00:00"
         },
         {
           "id": 8,
           "author": "Max",
-          "text": "I use APIs in almost every project.",
-          "date": "2026-09-12T19:20:00"
+          "text": "Good explanation with practical examples.",
+          "date": "2026-09-12T15:30:00"
         }
       ]
     },
@@ -107,23 +107,23 @@
       "id": 5,
       "title": "Understanding HTTP Methods",
       "description": "GET, POST, PUT, PATCH and DELETE explained.",
-      "content": "HTTP methods define what action should be performed on a resource. GET is normally used to retrieve data, POST to create new data, PUT and PATCH to update data, and DELETE to remove data. Understanding these methods is important when working with REST APIs.",
+      "content": "HTTP methods define what action should be performed on a resource. GET is normally used to retrieve data, POST to create new data, PUT and PATCH to update data, and DELETE to remove data. Understanding these methods is important when working with REST APIs.\n\nThis topic is especially relevant when building modern web applications because developers need to balance functionality, maintainability and user experience. A good implementation starts with a clear understanding of the problem and the responsibilities of each part of the application.\n\nIn practice, developers should separate concerns and avoid putting unrelated logic into the same component or service. Clear naming, predictable data flow and small reusable pieces make a project easier to understand and debug. Testing with realistic data also helps reveal problems that may not be visible in a small prototype.\n\nAnother important consideration is reliability. Applications should handle loading states, invalid input, failed requests and unexpected data instead of assuming that everything will always work. These details often make the difference between a simple demonstration and a robust application.\n\nThe best solution also depends on the project requirements. Developers should avoid unnecessary complexity and choose tools that solve the actual problem. Starting with a clear and simple architecture makes it easier to improve the application later when new requirements appear.",
       "category": "Web Development",
       "author": "Admin",
-      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+      "image": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2",
       "date": "2026-09-10",
       "comments": [
         {
           "id": 9,
           "author": "Anna",
-          "text": "PATCH is especially useful when updating only part of an object.",
-          "date": "2026-09-10T11:30:00"
+          "text": "Very useful article about Web Development.",
+          "date": "2026-09-10T12:00:00"
         },
         {
           "id": 10,
           "author": "Max",
-          "text": "A useful overview of HTTP methods.",
-          "date": "2026-09-10T15:00:00"
+          "text": "Good explanation with practical examples.",
+          "date": "2026-09-10T15:30:00"
         }
       ]
     },
@@ -131,23 +131,23 @@
       "id": 6,
       "title": "CSS Grid vs Flexbox",
       "description": "When should you use CSS Grid and when should you use Flexbox?",
-      "content": "CSS Grid and Flexbox are two essential layout systems. Flexbox is especially useful for one-dimensional layouts, while Grid is designed for two-dimensional layouts. Understanding the differences allows developers to create responsive and flexible interfaces.",
+      "content": "CSS Grid and Flexbox are two essential layout systems. Flexbox is especially useful for one-dimensional layouts, while Grid is designed for two-dimensional layouts. Understanding the differences allows developers to create responsive and flexible interfaces.\n\nThis topic is especially relevant when building modern web applications because developers need to balance functionality, maintainability and user experience. A good implementation starts with a clear understanding of the problem and the responsibilities of each part of the application.\n\nIn practice, developers should separate concerns and avoid putting unrelated logic into the same component or service. Clear naming, predictable data flow and small reusable pieces make a project easier to understand and debug. Testing with realistic data also helps reveal problems that may not be visible in a small prototype.\n\nAnother important consideration is reliability. Applications should handle loading states, invalid input, failed requests and unexpected data instead of assuming that everything will always work. These details often make the difference between a simple demonstration and a robust application.\n\nThe best solution also depends on the project requirements. Developers should avoid unnecessary complexity and choose tools that solve the actual problem. Starting with a clear and simple architecture makes it easier to improve the application later when new requirements appear.",
       "category": "CSS",
       "author": "Admin",
-      "image": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2",
+      "image": "https://images.unsplash.com/photo-1547658719-da2b51169166",
       "date": "2026-09-08",
       "comments": [
         {
           "id": 11,
           "author": "Anna",
-          "text": "I usually prefer Flexbox, but Grid is great for complex layouts.",
-          "date": "2026-09-08T11:30:00"
+          "text": "Very useful article about CSS.",
+          "date": "2026-09-08T12:00:00"
         },
         {
           "id": 12,
           "author": "Max",
-          "text": "This helped me understand the difference between Grid and Flexbox.",
-          "date": "2026-09-08T14:15:00"
+          "text": "Good explanation with practical examples.",
+          "date": "2026-09-08T15:30:00"
         }
       ]
     },
@@ -155,23 +155,23 @@
       "id": 7,
       "title": "Responsive Web Design Basics",
       "description": "How to make websites work well on different screen sizes.",
-      "content": "Responsive design ensures that a website works correctly on smartphones, tablets and desktop computers. Developers can use flexible layouts, media queries and responsive units to adapt the interface to different screen sizes.",
+      "content": "Responsive design ensures that a website works correctly on smartphones, tablets and desktop computers. Developers can use flexible layouts, media queries and responsive units to adapt the interface to different screen sizes.\n\nThis topic is especially relevant when building modern web applications because developers need to balance functionality, maintainability and user experience. A good implementation starts with a clear understanding of the problem and the responsibilities of each part of the application.\n\nIn practice, developers should separate concerns and avoid putting unrelated logic into the same component or service. Clear naming, predictable data flow and small reusable pieces make a project easier to understand and debug. Testing with realistic data also helps reveal problems that may not be visible in a small prototype.\n\nAnother important consideration is reliability. Applications should handle loading states, invalid input, failed requests and unexpected data instead of assuming that everything will always work. These details often make the difference between a simple demonstration and a robust application.\n\nThe best solution also depends on the project requirements. Developers should avoid unnecessary complexity and choose tools that solve the actual problem. Starting with a clear and simple architecture makes it easier to improve the application later when new requirements appear.",
       "category": "CSS",
       "author": "Admin",
-      "image": "https://images.unsplash.com/photo-1547658719-da2b51169166",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
       "date": "2026-09-06",
       "comments": [
         {
           "id": 13,
           "author": "Anna",
-          "text": "Responsive design is essential for modern websites.",
-          "date": "2026-09-06T13:45:00"
+          "text": "Very useful article about CSS.",
+          "date": "2026-09-06T12:00:00"
         },
         {
           "id": 14,
           "author": "Max",
-          "text": "Media queries are really useful for responsive layouts.",
-          "date": "2026-09-06T16:20:00"
+          "text": "Good explanation with practical examples.",
+          "date": "2026-09-06T15:30:00"
         }
       ]
     },
@@ -179,23 +179,23 @@
       "id": 8,
       "title": "What Is Frontend Development?",
       "description": "An introduction to the world of frontend development.",
-      "content": "Frontend development focuses on the part of a website or application that users interact with. HTML, CSS and JavaScript form the foundation of frontend development, while modern frameworks such as React provide tools for building complex interfaces.",
+      "content": "Frontend development focuses on the part of a website or application that users interact with. HTML, CSS and JavaScript form the foundation of frontend development, while modern frameworks such as React provide tools for building complex interfaces.\n\nThis topic is especially relevant when building modern web applications because developers need to balance functionality, maintainability and user experience. A good implementation starts with a clear understanding of the problem and the responsibilities of each part of the application.\n\nIn practice, developers should separate concerns and avoid putting unrelated logic into the same component or service. Clear naming, predictable data flow and small reusable pieces make a project easier to understand and debug. Testing with realistic data also helps reveal problems that may not be visible in a small prototype.\n\nAnother important consideration is reliability. Applications should handle loading states, invalid input, failed requests and unexpected data instead of assuming that everything will always work. These details often make the difference between a simple demonstration and a robust application.\n\nThe best solution also depends on the project requirements. Developers should avoid unnecessary complexity and choose tools that solve the actual problem. Starting with a clear and simple architecture makes it easier to improve the application later when new requirements appear.",
       "category": "Web Development",
       "author": "Admin",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
       "date": "2026-09-04",
       "comments": [
         {
           "id": 15,
           "author": "Anna",
-          "text": "Frontend development is a very interesting field.",
-          "date": "2026-09-04T09:30:00"
+          "text": "Very useful article about Web Development.",
+          "date": "2026-09-04T12:00:00"
         },
         {
           "id": 16,
           "author": "Max",
-          "text": "HTML, CSS and JavaScript are a great foundation.",
-          "date": "2026-09-04T12:45:00"
+          "text": "Good explanation with practical examples.",
+          "date": "2026-09-04T15:30:00"
         }
       ]
     },
@@ -203,23 +203,23 @@
       "id": 9,
       "title": "Introduction to Git and GitHub",
       "description": "Why version control is an essential skill for developers.",
-      "content": "Git is a distributed version control system that allows developers to track changes in their projects. GitHub provides a platform for storing Git repositories and collaborating with other developers. Both tools are commonly used in professional software development.",
+      "content": "Git is a distributed version control system that allows developers to track changes in their projects. GitHub provides a platform for storing Git repositories and collaborating with other developers. Both tools are commonly used in professional software development.\n\nThis topic is especially relevant when building modern web applications because developers need to balance functionality, maintainability and user experience. A good implementation starts with a clear understanding of the problem and the responsibilities of each part of the application.\n\nIn practice, developers should separate concerns and avoid putting unrelated logic into the same component or service. Clear naming, predictable data flow and small reusable pieces make a project easier to understand and debug. Testing with realistic data also helps reveal problems that may not be visible in a small prototype.\n\nAnother important consideration is reliability. Applications should handle loading states, invalid input, failed requests and unexpected data instead of assuming that everything will always work. These details often make the difference between a simple demonstration and a robust application.\n\nThe best solution also depends on the project requirements. Developers should avoid unnecessary complexity and choose tools that solve the actual problem. Starting with a clear and simple architecture makes it easier to improve the application later when new requirements appear.",
       "category": "Development",
       "author": "Admin",
-      "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
       "date": "2026-09-02",
       "comments": [
         {
           "id": 17,
           "author": "Anna",
-          "text": "Git is one of the first tools every developer should learn.",
-          "date": "2026-09-02T09:30:00"
+          "text": "Very useful article about Development.",
+          "date": "2026-09-02T12:00:00"
         },
         {
           "id": 18,
           "author": "Max",
-          "text": "Git makes working on projects much safer.",
-          "date": "2026-09-02T14:10:00"
+          "text": "Good explanation with practical examples.",
+          "date": "2026-09-02T15:30:00"
         }
       ]
     },
@@ -227,23 +227,983 @@
       "id": 10,
       "title": "Web Accessibility Basics",
       "description": "How to make websites accessible to more people.",
-      "content": "Web accessibility means designing websites that can be used by people with different abilities. Semantic HTML, keyboard navigation, sufficient contrast and meaningful labels are some of the important principles of accessible web development.",
+      "content": "Web accessibility means designing websites that can be used by people with different abilities. Semantic HTML, keyboard navigation, sufficient contrast and meaningful labels are some of the important principles of accessible web development.\n\nThis topic is especially relevant when building modern web applications because developers need to balance functionality, maintainability and user experience. A good implementation starts with a clear understanding of the problem and the responsibilities of each part of the application.\n\nIn practice, developers should separate concerns and avoid putting unrelated logic into the same component or service. Clear naming, predictable data flow and small reusable pieces make a project easier to understand and debug. Testing with realistic data also helps reveal problems that may not be visible in a small prototype.\n\nAnother important consideration is reliability. Applications should handle loading states, invalid input, failed requests and unexpected data instead of assuming that everything will always work. These details often make the difference between a simple demonstration and a robust application.\n\nThe best solution also depends on the project requirements. Developers should avoid unnecessary complexity and choose tools that solve the actual problem. Starting with a clear and simple architecture makes it easier to improve the application later when new requirements appear.",
       "category": "Web Development",
       "author": "Admin",
-      "image": "https://images.unsplash.com/photo-1558655146-d09347e92766",
-      "date": "2026-08-30",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+      "date": "2026-08-31",
       "comments": [
         {
           "id": 19,
           "author": "Anna",
-          "text": "Accessibility is often overlooked but extremely important.",
-          "date": "2026-08-30T17:20:00"
+          "text": "Very useful article about Web Development.",
+          "date": "2026-08-31T12:00:00"
         },
         {
           "id": 20,
           "author": "Max",
-          "text": "Good article. Every website should consider accessibility.",
-          "date": "2026-08-30T19:00:00"
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-31T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "TypeScript for React Developers",
+      "description": "A practical introduction to typescript for react developers and its role in modern web development.",
+      "content": "TypeScript for React Developers is an important topic for developers who want to build modern and maintainable applications. A practical introduction to typescript for react developers and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "TypeScript",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+      "date": "2026-08-29",
+      "comments": [
+        {
+          "id": 21,
+          "author": "Anna",
+          "text": "Very useful article about TypeScript.",
+          "date": "2026-08-29T12:00:00"
+        },
+        {
+          "id": 22,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-29T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "State Management in React",
+      "description": "A practical introduction to state management in react and its role in modern web development.",
+      "content": "State Management in React is an important topic for developers who want to build modern and maintainable applications. A practical introduction to state management in react and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "React",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479",
+      "date": "2026-08-28",
+      "comments": [
+        {
+          "id": 23,
+          "author": "Anna",
+          "text": "Very useful article about React.",
+          "date": "2026-08-28T12:00:00"
+        },
+        {
+          "id": 24,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-28T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "React Hooks Explained",
+      "description": "A practical introduction to react hooks explained and its role in modern web development.",
+      "content": "React Hooks Explained is an important topic for developers who want to build modern and maintainable applications. A practical introduction to react hooks explained and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "React",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2",
+      "date": "2026-08-27",
+      "comments": [
+        {
+          "id": 25,
+          "author": "Anna",
+          "text": "Very useful article about React.",
+          "date": "2026-08-27T12:00:00"
+        },
+        {
+          "id": 26,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-27T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Building Reusable UI Components",
+      "description": "A practical introduction to building reusable ui components and its role in modern web development.",
+      "content": "Building Reusable UI Components is an important topic for developers who want to build modern and maintainable applications. A practical introduction to building reusable ui components and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "React",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1547658719-da2b51169166",
+      "date": "2026-08-26",
+      "comments": [
+        {
+          "id": 27,
+          "author": "Anna",
+          "text": "Very useful article about React.",
+          "date": "2026-08-26T12:00:00"
+        },
+        {
+          "id": 28,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-26T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "JavaScript Array Methods",
+      "description": "A practical introduction to javascript array methods and its role in modern web development.",
+      "content": "JavaScript Array Methods is an important topic for developers who want to build modern and maintainable applications. A practical introduction to javascript array methods and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "JavaScript",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+      "date": "2026-08-25",
+      "comments": [
+        {
+          "id": 29,
+          "author": "Anna",
+          "text": "Very useful article about JavaScript.",
+          "date": "2026-08-25T12:00:00"
+        },
+        {
+          "id": 30,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-25T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Promises and Asynchronous JavaScript",
+      "description": "A practical introduction to promises and asynchronous javascript and its role in modern web development.",
+      "content": "Promises and Asynchronous JavaScript is an important topic for developers who want to build modern and maintainable applications. A practical introduction to promises and asynchronous javascript and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "JavaScript",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
+      "date": "2026-08-24",
+      "comments": [
+        {
+          "id": 31,
+          "author": "Anna",
+          "text": "Very useful article about JavaScript.",
+          "date": "2026-08-24T12:00:00"
+        },
+        {
+          "id": 32,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-24T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "JavaScript Modules",
+      "description": "A practical introduction to javascript modules and its role in modern web development.",
+      "content": "JavaScript Modules is an important topic for developers who want to build modern and maintainable applications. A practical introduction to javascript modules and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "JavaScript",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      "date": "2026-08-23",
+      "comments": [
+        {
+          "id": 33,
+          "author": "Anna",
+          "text": "Very useful article about JavaScript.",
+          "date": "2026-08-23T12:00:00"
+        },
+        {
+          "id": 34,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-23T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Understanding the DOM",
+      "description": "A practical introduction to understanding the dom and its role in modern web development.",
+      "content": "Understanding the DOM is an important topic for developers who want to build modern and maintainable applications. A practical introduction to understanding the dom and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "JavaScript",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+      "date": "2026-08-22",
+      "comments": [
+        {
+          "id": 35,
+          "author": "Anna",
+          "text": "Very useful article about JavaScript.",
+          "date": "2026-08-22T12:00:00"
+        },
+        {
+          "id": 36,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-22T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "CSS Flexbox in Practice",
+      "description": "A practical introduction to css flexbox in practice and its role in modern web development.",
+      "content": "CSS Flexbox in Practice is an important topic for developers who want to build modern and maintainable applications. A practical introduction to css flexbox in practice and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "CSS",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+      "date": "2026-08-21",
+      "comments": [
+        {
+          "id": 37,
+          "author": "Anna",
+          "text": "Very useful article about CSS.",
+          "date": "2026-08-21T12:00:00"
+        },
+        {
+          "id": 38,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-21T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "CSS Grid Layout in Practice",
+      "description": "A practical introduction to css grid layout in practice and its role in modern web development.",
+      "content": "CSS Grid Layout in Practice is an important topic for developers who want to build modern and maintainable applications. A practical introduction to css grid layout in practice and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "CSS",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479",
+      "date": "2026-08-20",
+      "comments": [
+        {
+          "id": 39,
+          "author": "Anna",
+          "text": "Very useful article about CSS.",
+          "date": "2026-08-20T12:00:00"
+        },
+        {
+          "id": 40,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-20T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "CSS Positioning Explained",
+      "description": "A practical introduction to css positioning explained and its role in modern web development.",
+      "content": "CSS Positioning Explained is an important topic for developers who want to build modern and maintainable applications. A practical introduction to css positioning explained and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "CSS",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2",
+      "date": "2026-08-19",
+      "comments": [
+        {
+          "id": 41,
+          "author": "Anna",
+          "text": "Very useful article about CSS.",
+          "date": "2026-08-19T12:00:00"
+        },
+        {
+          "id": 42,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-19T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "CSS Variables and Design Tokens",
+      "description": "A practical introduction to css variables and design tokens and its role in modern web development.",
+      "content": "CSS Variables and Design Tokens is an important topic for developers who want to build modern and maintainable applications. A practical introduction to css variables and design tokens and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "CSS",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1547658719-da2b51169166",
+      "date": "2026-08-18",
+      "comments": [
+        {
+          "id": 43,
+          "author": "Anna",
+          "text": "Very useful article about CSS.",
+          "date": "2026-08-18T12:00:00"
+        },
+        {
+          "id": 44,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-18T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Modern CSS Typography",
+      "description": "A practical introduction to modern css typography and its role in modern web development.",
+      "content": "Modern CSS Typography is an important topic for developers who want to build modern and maintainable applications. A practical introduction to modern css typography and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "CSS",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+      "date": "2026-08-17",
+      "comments": [
+        {
+          "id": 45,
+          "author": "Anna",
+          "text": "Very useful article about CSS.",
+          "date": "2026-08-17T12:00:00"
+        },
+        {
+          "id": 46,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-17T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "REST API Design Basics",
+      "description": "A practical introduction to rest api design basics and its role in modern web development.",
+      "content": "REST API Design Basics is an important topic for developers who want to build modern and maintainable applications. A practical introduction to rest api design basics and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "Web Development",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
+      "date": "2026-08-16",
+      "comments": [
+        {
+          "id": 47,
+          "author": "Anna",
+          "text": "Very useful article about Web Development.",
+          "date": "2026-08-16T12:00:00"
+        },
+        {
+          "id": 48,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-16T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Working with JSON Data",
+      "description": "A practical introduction to working with json data and its role in modern web development.",
+      "content": "Working with JSON Data is an important topic for developers who want to build modern and maintainable applications. A practical introduction to working with json data and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "Web Development",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      "date": "2026-08-15",
+      "comments": [
+        {
+          "id": 49,
+          "author": "Anna",
+          "text": "Very useful article about Web Development.",
+          "date": "2026-08-15T12:00:00"
+        },
+        {
+          "id": 50,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-15T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Axios in React Applications",
+      "description": "A practical introduction to axios in react applications and its role in modern web development.",
+      "content": "Axios in React Applications is an important topic for developers who want to build modern and maintainable applications. A practical introduction to axios in react applications and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "Web Development",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+      "date": "2026-08-14",
+      "comments": [
+        {
+          "id": 51,
+          "author": "Anna",
+          "text": "Very useful article about Web Development.",
+          "date": "2026-08-14T12:00:00"
+        },
+        {
+          "id": 52,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-14T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Handling API Loading States",
+      "description": "A practical introduction to handling api loading states and its role in modern web development.",
+      "content": "Handling API Loading States is an important topic for developers who want to build modern and maintainable applications. A practical introduction to handling api loading states and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "Web Development",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+      "date": "2026-08-13",
+      "comments": [
+        {
+          "id": 53,
+          "author": "Anna",
+          "text": "Very useful article about Web Development.",
+          "date": "2026-08-13T12:00:00"
+        },
+        {
+          "id": 54,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-13T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Error Handling in Frontend Applications",
+      "description": "A practical introduction to error handling in frontend applications and its role in modern web development.",
+      "content": "Error Handling in Frontend Applications is an important topic for developers who want to build modern and maintainable applications. A practical introduction to error handling in frontend applications and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "Web Development",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479",
+      "date": "2026-08-12",
+      "comments": [
+        {
+          "id": 55,
+          "author": "Anna",
+          "text": "Very useful article about Web Development.",
+          "date": "2026-08-12T12:00:00"
+        },
+        {
+          "id": 56,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-12T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Client-Side Routing with React Router",
+      "description": "A practical introduction to client-side routing with react router and its role in modern web development.",
+      "content": "Client-Side Routing with React Router is an important topic for developers who want to build modern and maintainable applications. A practical introduction to client-side routing with react router and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "React",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2",
+      "date": "2026-08-11",
+      "comments": [
+        {
+          "id": 57,
+          "author": "Anna",
+          "text": "Very useful article about React.",
+          "date": "2026-08-11T12:00:00"
+        },
+        {
+          "id": 58,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-11T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Protected Routes in React",
+      "description": "A practical introduction to protected routes in react and its role in modern web development.",
+      "content": "Protected Routes in React is an important topic for developers who want to build modern and maintainable applications. A practical introduction to protected routes in react and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "React",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1547658719-da2b51169166",
+      "date": "2026-08-10",
+      "comments": [
+        {
+          "id": 59,
+          "author": "Anna",
+          "text": "Very useful article about React.",
+          "date": "2026-08-10T12:00:00"
+        },
+        {
+          "id": 60,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-10T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Forms and Validation in React",
+      "description": "A practical introduction to forms and validation in react and its role in modern web development.",
+      "content": "Forms and Validation in React is an important topic for developers who want to build modern and maintainable applications. A practical introduction to forms and validation in react and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "React",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+      "date": "2026-08-09",
+      "comments": [
+        {
+          "id": 61,
+          "author": "Anna",
+          "text": "Very useful article about React.",
+          "date": "2026-08-09T12:00:00"
+        },
+        {
+          "id": 62,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-09T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Pagination in Web Applications",
+      "description": "A practical introduction to pagination in web applications and its role in modern web development.",
+      "content": "Pagination in Web Applications is an important topic for developers who want to build modern and maintainable applications. A practical introduction to pagination in web applications and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "Web Development",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
+      "date": "2026-08-08",
+      "comments": [
+        {
+          "id": 63,
+          "author": "Anna",
+          "text": "Very useful article about Web Development.",
+          "date": "2026-08-08T12:00:00"
+        },
+        {
+          "id": 64,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-08T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Search and Filtering Interfaces",
+      "description": "A practical introduction to search and filtering interfaces and its role in modern web development.",
+      "content": "Search and Filtering Interfaces is an important topic for developers who want to build modern and maintainable applications. A practical introduction to search and filtering interfaces and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "Web Development",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      "date": "2026-08-07",
+      "comments": [
+        {
+          "id": 65,
+          "author": "Anna",
+          "text": "Very useful article about Web Development.",
+          "date": "2026-08-07T12:00:00"
+        },
+        {
+          "id": 66,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-07T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Web Performance Fundamentals",
+      "description": "A practical introduction to web performance fundamentals and its role in modern web development.",
+      "content": "Web Performance Fundamentals is an important topic for developers who want to build modern and maintainable applications. A practical introduction to web performance fundamentals and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "Performance",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+      "date": "2026-08-06",
+      "comments": [
+        {
+          "id": 67,
+          "author": "Anna",
+          "text": "Very useful article about Performance.",
+          "date": "2026-08-06T12:00:00"
+        },
+        {
+          "id": 68,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-06T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Optimizing Images for the Web",
+      "description": "A practical introduction to optimizing images for the web and its role in modern web development.",
+      "content": "Optimizing Images for the Web is an important topic for developers who want to build modern and maintainable applications. A practical introduction to optimizing images for the web and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "Performance",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+      "date": "2026-08-05",
+      "comments": [
+        {
+          "id": 69,
+          "author": "Anna",
+          "text": "Very useful article about Performance.",
+          "date": "2026-08-05T12:00:00"
+        },
+        {
+          "id": 70,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-05T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Lazy Loading Explained",
+      "description": "A practical introduction to lazy loading explained and its role in modern web development.",
+      "content": "Lazy Loading Explained is an important topic for developers who want to build modern and maintainable applications. A practical introduction to lazy loading explained and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "Performance",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479",
+      "date": "2026-08-04",
+      "comments": [
+        {
+          "id": 71,
+          "author": "Anna",
+          "text": "Very useful article about Performance.",
+          "date": "2026-08-04T12:00:00"
+        },
+        {
+          "id": 72,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-04T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Browser Caching Basics",
+      "description": "A practical introduction to browser caching basics and its role in modern web development.",
+      "content": "Browser Caching Basics is an important topic for developers who want to build modern and maintainable applications. A practical introduction to browser caching basics and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "Performance",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2",
+      "date": "2026-08-03",
+      "comments": [
+        {
+          "id": 73,
+          "author": "Anna",
+          "text": "Very useful article about Performance.",
+          "date": "2026-08-03T12:00:00"
+        },
+        {
+          "id": 74,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-03T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Web Security Fundamentals",
+      "description": "A practical introduction to web security fundamentals and its role in modern web development.",
+      "content": "Web Security Fundamentals is an important topic for developers who want to build modern and maintainable applications. A practical introduction to web security fundamentals and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "Security",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1547658719-da2b51169166",
+      "date": "2026-08-02",
+      "comments": [
+        {
+          "id": 75,
+          "author": "Anna",
+          "text": "Very useful article about Security.",
+          "date": "2026-08-02T12:00:00"
+        },
+        {
+          "id": 76,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-02T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Protecting User Input",
+      "description": "A practical introduction to protecting user input and its role in modern web development.",
+      "content": "Protecting User Input is an important topic for developers who want to build modern and maintainable applications. A practical introduction to protecting user input and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "Security",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+      "date": "2026-08-01",
+      "comments": [
+        {
+          "id": 77,
+          "author": "Anna",
+          "text": "Very useful article about Security.",
+          "date": "2026-08-01T12:00:00"
+        },
+        {
+          "id": 78,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-08-01T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Authentication Concepts for Web Apps",
+      "description": "A practical introduction to authentication concepts for web apps and its role in modern web development.",
+      "content": "Authentication Concepts for Web Apps is an important topic for developers who want to build modern and maintainable applications. A practical introduction to authentication concepts for web apps and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "Security",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
+      "date": "2026-07-31",
+      "comments": [
+        {
+          "id": 79,
+          "author": "Anna",
+          "text": "Very useful article about Security.",
+          "date": "2026-07-31T12:00:00"
+        },
+        {
+          "id": 80,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-07-31T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Local Storage in Browser Applications",
+      "description": "A practical introduction to local storage in browser applications and its role in modern web development.",
+      "content": "Local Storage in Browser Applications is an important topic for developers who want to build modern and maintainable applications. A practical introduction to local storage in browser applications and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "JavaScript",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      "date": "2026-07-30",
+      "comments": [
+        {
+          "id": 81,
+          "author": "Anna",
+          "text": "Very useful article about JavaScript.",
+          "date": "2026-07-30T12:00:00"
+        },
+        {
+          "id": 82,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-07-30T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Understanding Browser DevTools",
+      "description": "A practical introduction to understanding browser devtools and its role in modern web development.",
+      "content": "Understanding Browser DevTools is an important topic for developers who want to build modern and maintainable applications. A practical introduction to understanding browser devtools and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "Development",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+      "date": "2026-07-29",
+      "comments": [
+        {
+          "id": 83,
+          "author": "Anna",
+          "text": "Very useful article about Development.",
+          "date": "2026-07-29T12:00:00"
+        },
+        {
+          "id": 84,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-07-29T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Debugging React Applications",
+      "description": "A practical introduction to debugging react applications and its role in modern web development.",
+      "content": "Debugging React Applications is an important topic for developers who want to build modern and maintainable applications. A practical introduction to debugging react applications and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "React",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+      "date": "2026-07-28",
+      "comments": [
+        {
+          "id": 85,
+          "author": "Anna",
+          "text": "Very useful article about React.",
+          "date": "2026-07-28T12:00:00"
+        },
+        {
+          "id": 86,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-07-28T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Clean Code Principles",
+      "description": "A practical introduction to clean code principles and its role in modern web development.",
+      "content": "Clean Code Principles is an important topic for developers who want to build modern and maintainable applications. A practical introduction to clean code principles and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "Development",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479",
+      "date": "2026-07-27",
+      "comments": [
+        {
+          "id": 87,
+          "author": "Anna",
+          "text": "Very useful article about Development.",
+          "date": "2026-07-27T12:00:00"
+        },
+        {
+          "id": 88,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-07-27T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Project Structure in React",
+      "description": "A practical introduction to project structure in react and its role in modern web development.",
+      "content": "Project Structure in React is an important topic for developers who want to build modern and maintainable applications. A practical introduction to project structure in react and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "React",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2",
+      "date": "2026-07-26",
+      "comments": [
+        {
+          "id": 89,
+          "author": "Anna",
+          "text": "Very useful article about React.",
+          "date": "2026-07-26T12:00:00"
+        },
+        {
+          "id": 90,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-07-26T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Environment Variables in Vite",
+      "description": "A practical introduction to environment variables in vite and its role in modern web development.",
+      "content": "Environment Variables in Vite is an important topic for developers who want to build modern and maintainable applications. A practical introduction to environment variables in vite and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "Development",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1547658719-da2b51169166",
+      "date": "2026-07-25",
+      "comments": [
+        {
+          "id": 91,
+          "author": "Anna",
+          "text": "Very useful article about Development.",
+          "date": "2026-07-25T12:00:00"
+        },
+        {
+          "id": 92,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-07-25T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Introduction to Unit Testing",
+      "description": "A practical introduction to introduction to unit testing and its role in modern web development.",
+      "content": "Introduction to Unit Testing is an important topic for developers who want to build modern and maintainable applications. A practical introduction to introduction to unit testing and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "Development",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+      "date": "2026-07-24",
+      "comments": [
+        {
+          "id": 93,
+          "author": "Anna",
+          "text": "Very useful article about Development.",
+          "date": "2026-07-24T12:00:00"
+        },
+        {
+          "id": 94,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-07-24T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Writing Better Technical Documentation",
+      "description": "A practical introduction to writing better technical documentation and its role in modern web development.",
+      "content": "Writing Better Technical Documentation is an important topic for developers who want to build modern and maintainable applications. A practical introduction to writing better technical documentation and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "Development",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
+      "date": "2026-07-23",
+      "comments": [
+        {
+          "id": 95,
+          "author": "Anna",
+          "text": "Very useful article about Development.",
+          "date": "2026-07-23T12:00:00"
+        },
+        {
+          "id": 96,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-07-23T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Deploying a Frontend Application",
+      "description": "A practical introduction to deploying a frontend application and its role in modern web development.",
+      "content": "Deploying a Frontend Application is an important topic for developers who want to build modern and maintainable applications. A practical introduction to deploying a frontend application and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "Development",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      "date": "2026-07-22",
+      "comments": [
+        {
+          "id": 97,
+          "author": "Anna",
+          "text": "Very useful article about Development.",
+          "date": "2026-07-22T12:00:00"
+        },
+        {
+          "id": 98,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-07-22T15:30:00"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Modern Web Architecture",
+      "description": "A practical introduction to modern web architecture and its role in modern web development.",
+      "content": "Modern Web Architecture is an important topic for developers who want to build modern and maintainable applications. A practical introduction to modern web architecture and its role in modern web development. Understanding the main concepts helps developers choose appropriate solutions and avoid unnecessary complexity.\n\nA useful way to approach this topic is to start with the requirements of the application. Developers should identify what data is needed, which parts of the interface are interactive and which responsibilities belong to components, services or shared state. This makes the implementation easier to reason about.\n\nIn a real project, the first working version is only the beginning. Code should be tested with realistic data and unusual situations, including empty results, slow requests and invalid input. Handling these cases early improves reliability and makes the final user experience more predictable.\n\nPerformance and maintainability should also be considered. A solution that works today can become difficult to change if responsibilities are mixed together or if the same logic is copied into many places. Reusable functions, clear component boundaries and consistent naming reduce this risk.\n\nFinally, there is rarely one universal implementation. The right approach depends on the size of the project, its requirements and the tools already being used. Keeping the solution simple while leaving room for future changes is usually a practical strategy.",
+      "category": "Web Development",
+      "author": "Admin",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+      "date": "2026-07-21",
+      "comments": [
+        {
+          "id": 99,
+          "author": "Anna",
+          "text": "Very useful article about Web Development.",
+          "date": "2026-07-21T12:00:00"
+        },
+        {
+          "id": 100,
+          "author": "Max",
+          "text": "Good explanation with practical examples.",
+          "date": "2026-07-21T15:30:00"
         }
       ]
     }
