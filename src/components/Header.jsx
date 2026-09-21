@@ -25,13 +25,17 @@ function Header() {
 
   return (
     <AppBar
-      position="static"
       elevation={0}
       sx={{
         backgroundColor: "background.paper",
         color: "text.primary",
         borderBottom: "1px solid",
         borderColor: "divider",
+        position: "fixed",
+        top: 0,
+        left: 0,
+        right: 0,
+        zIndex: 1100,
       }}
     >
       <Container maxWidth="lg">

@@ -5,9 +5,6 @@ import Home from "./pages/Home";
 import ArticleDetails from "./pages/ArticleDetails";
 import Login from "./pages/Login";
 
-import { getArticles } from "./services/api";
-import { useEffect } from "react";
-
 function App() {
   return (
     <Routes>
