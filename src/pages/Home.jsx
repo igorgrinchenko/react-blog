@@ -11,11 +11,11 @@ function Home() {
 
   const articles = useArticlesStore((state) => state.articles);
   const error = useArticlesStore((state) => state.error);
-  const getAllArticles = useArticlesStore((state) => state.getAllArticles);
+  const getArticles = useArticlesStore((state) => state.getArticles);
 
   useEffect(() => {
-    getAllArticles();
-  }, [getAllArticles]);
+    getArticles();
+  }, [getArticles]);
 
   return (
     <Container maxWidth="lg" sx={{ pt: 10 }}>

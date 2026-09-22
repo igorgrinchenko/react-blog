@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { getAllArticles, getFilteredArticles } from "../services/api";
+import { getArticles } from "../services/api";
 
 export const useArticlesStore = create((set) => ({
   articles: [],
@@ -7,42 +7,26 @@ export const useArticlesStore = create((set) => ({
   loading: false,
   error: null,
 
-  getAllArticles: async () => {
+  getArticles: async (filters) => {
     set({
       loading: true,
       error: null,
     });
 
     try {
-      const { data } = await getAllArticles();
+      const { data } = await getArticles(filters);
+      const isAllArticlesRequest =
+        !filters?.query &&
+        (!filters?.category || filters.category === "All");
 
       set({
         articles: data,
-        categories: [
-          "All",
-          ...new Set(data.map((article) => article.category)),
-        ],
-        loading: false,
-      });
-    } catch (error) {
-      set({
-        loading: false,
-        error,
-      });
-    }
-  },
-
-  getFilteredArticles: async (filter) => {
-    set({
-      loading: true,
-      error: null,
-    });
-
-    try {
-      const response = await getFilteredArticles(filter);
-
-      set({
-        articles: response.data,
+        ...(isAllArticlesRequest && {
+          categories: [
+            "All",
+            ...new Set(data.map((article) => article.category)),
+          ],
+        }),
         loading: false,
       });
     } catch (error) {

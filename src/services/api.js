@@ -7,9 +7,13 @@ const api = axios.create({
   },
 });
 
-export const getAllArticles = () => api.get("/articles");
-export const getFilteredArticles = (filter) =>
-  api.get(`/articles?category=${filter}`);
+export const getArticles = ({ category, query } = {}) =>
+  api.get("/articles", {
+    params: {
+      ...(query && { q: query }),
+      ...(category && category !== "All" && { category }),
+    },
+  });
 
 export const loginUser = (username, password) =>
   api.get("/users", {

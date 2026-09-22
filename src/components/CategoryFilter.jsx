@@ -6,20 +6,11 @@ import { Box, Chip, Typography } from "@mui/material";
 function CategoryFilter() {
   const [currentCategory, setCurrentCategory] = useState("All");
   const categories = useArticlesStore((state) => state.categories);
-  const getFilteredArticles = useArticlesStore(
-    (state) => state.getFilteredArticles,
-  );
-  const getAllArticles = useArticlesStore((state) => state.getAllArticles);
+  const getArticles = useArticlesStore((state) => state.getArticles);
 
   const handleCategoryClick = (category) => {
     setCurrentCategory(category);
-
-    if (category === "All") {
-      getAllArticles();
-      return;
-    }
-
-    getFilteredArticles(category);
+    getArticles({ category });
   };
 
   return (
