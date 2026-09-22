@@ -1,16 +1,16 @@
-import { useState } from "react";
 import { useArticlesStore } from "../store/articlesStore";
 
 import { Box, Chip, Typography } from "@mui/material";
 
 function CategoryFilter() {
-  const [currentCategory, setCurrentCategory] = useState("All");
   const categories = useArticlesStore((state) => state.categories);
-  const getArticles = useArticlesStore((state) => state.getArticles);
+  const currentCategory = useArticlesStore((state) => state.selectedCategory);
+  const setSelectedCategory = useArticlesStore(
+    (state) => state.setSelectedCategory,
+  );
 
   const handleCategoryClick = (category) => {
-    setCurrentCategory(category);
-    getArticles({ category });
+    setSelectedCategory(category);
   };
 
   return (

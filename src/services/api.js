@@ -7,13 +7,7 @@ const api = axios.create({
   },
 });
 
-export const getArticles = ({ category, query } = {}) =>
-  api.get("/articles", {
-    params: {
-      ...(query && { q: query }),
-      ...(category && category !== "All" && { category }),
-    },
-  });
+export const getArticles = () => api.get("/articles");
 
 export const loginUser = (username, password) =>
   api.get("/users", {

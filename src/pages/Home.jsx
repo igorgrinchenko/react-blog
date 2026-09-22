@@ -7,11 +7,18 @@ import CustomPagination from "../components/CustomPagination";
 import CategoryFilter from "../components/CategoryFilter";
 
 function Home() {
-  const [currentArticles, setCurrentArticles] = useState([]);
+  const [page, setPage] = useState(1);
 
   const articles = useArticlesStore((state) => state.articles);
   const error = useArticlesStore((state) => state.error);
   const getArticles = useArticlesStore((state) => state.getArticles);
+  const articlesPerPage = 10;
+  const pageCount = Math.max(1, Math.ceil(articles.length / articlesPerPage));
+  const currentPage = Math.min(page, pageCount);
+  const currentArticles = articles.slice(
+    (currentPage - 1) * articlesPerPage,
+    currentPage * articlesPerPage,
+  );
 
   useEffect(() => {
     getArticles();
@@ -32,8 +39,9 @@ function Home() {
       </Grid>
 
       <CustomPagination
-        articles={articles}
-        setCurrentArticles={setCurrentArticles}
+        page={currentPage}
+        count={pageCount}
+        onChange={setPage}
       />
     </Container>
   );
