@@ -14,6 +14,7 @@ function ArticleCard({ article, onClick }) {
         borderColor: "divider",
         borderRadius: 2,
         overflow: "hidden",
+        cursor: "pointer",
         transition: "transform 0.2s ease, box-shadow 0.2s ease",
         "&:hover": {
           transform: "translateY(-4px)",
@@ -27,14 +28,14 @@ function ArticleCard({ article, onClick }) {
         alt={article.title}
         sx={{
           width: "100%",
-          height: 220,
+          height: { xs: 180, sm: 220 },
           objectFit: "cover",
         }}
       />
 
       <CardContent
         sx={{
-          p: 3,
+          p: { xs: 2, sm: 3 },
           display: "flex",
           flexDirection: "column",
           flex: 1,
@@ -45,7 +46,7 @@ function ArticleCard({ article, onClick }) {
           size="small"
           sx={{
             alignSelf: "flex-start",
-            mb: 2,
+            mb: { xs: 1.5, sm: 2 },
             fontWeight: 600,
             borderRadius: 1,
           }}
@@ -58,7 +59,8 @@ function ArticleCard({ article, onClick }) {
             fontWeight: 700,
             lineHeight: 1.2,
             letterSpacing: "-0.4px",
-            mb: 1.5,
+            fontSize: { xs: "1.25rem", sm: "1.5rem" },
+            mb: { xs: 1, sm: 1.5 },
           }}
         >
           {article.title}
@@ -69,7 +71,7 @@ function ArticleCard({ article, onClick }) {
           color="text.secondary"
           sx={{
             lineHeight: 1.7,
-            mb: 3,
+            mb: { xs: 2, sm: 3 },
           }}
         >
           {article.description}

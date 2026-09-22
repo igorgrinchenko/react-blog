@@ -33,19 +33,19 @@ function Home() {
 
   if (loading) {
     return (
-      <Container maxWidth="lg" sx={{ py: 10 }}>
+      <Container maxWidth="lg" sx={{ pt: { xs: 10, sm: 12 }, pb: 8 }}>
         Loading...
       </Container>
     );
   }
 
   return (
-    <Container maxWidth="lg" sx={{ pt: 10 }}>
+    <Container maxWidth="lg" sx={{ pt: { xs: 10, sm: 12 }, pb: { xs: 4, sm: 6 } }}>
       {error && <Alert severity="error">{error}</Alert>}
 
       <CategoryFilter />
 
-      <Grid container spacing={3}>
+      <Grid container rowSpacing={{ xs: 2, sm: 3 }} columnSpacing={{ xs: 2, sm: 3 }}>
         {currentArticles.map((article) => (
           <Grid key={article.id} size={{ xs: 12, sm: 6, md: 4 }}>
             <ArticleCard

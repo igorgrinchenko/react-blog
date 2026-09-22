@@ -6,7 +6,7 @@ function Footer() {
     <Box
       component="footer"
       sx={{
-        mt: 8,
+        mt: { xs: 5, sm: 8 },
         borderTop: "1px solid",
         borderColor: "divider",
         backgroundColor: "background.paper",
@@ -15,12 +15,13 @@ function Footer() {
       <Container maxWidth="lg">
         <Box
           sx={{
-            py: 4,
+            py: { xs: 3, sm: 4 },
             display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
+            justifyContent: { xs: "center", sm: "space-between" },
+            alignItems: { xs: "center", sm: "center" },
             gap: 2,
             flexWrap: "wrap",
+            textAlign: { xs: "center", sm: "left" },
           }}
         >
           <Box>

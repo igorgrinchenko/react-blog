@@ -30,7 +30,7 @@ function ArticleDetails() {
 
   if (loading || !allArticles.length) {
     return (
-      <Container maxWidth="md" sx={{ py: 10 }}>
+      <Container maxWidth="md" sx={{ pt: { xs: 10, sm: 12 }, pb: 8 }}>
         Loading...
       </Container>
     );
@@ -38,7 +38,7 @@ function ArticleDetails() {
 
   if (!article) {
     return (
-      <Container maxWidth="md" sx={{ py: 10 }}>
+      <Container maxWidth="md" sx={{ pt: { xs: 10, sm: 12 }, pb: 8 }}>
         Article not found.
       </Container>
     );
@@ -50,7 +50,7 @@ function ArticleDetails() {
   };
 
   return (
-    <Container maxWidth="md" sx={{ py: 10 }}>
+    <Container maxWidth="md" sx={{ pt: { xs: 10, sm: 12 }, pb: { xs: 5, sm: 8 } }}>
       <Box>
         <Chip label={article.category} color="primary" sx={{ mb: 2 }} />
 
@@ -61,6 +61,7 @@ function ArticleDetails() {
             fontWeight: 700,
             lineHeight: 1.15,
             letterSpacing: "-1px",
+            fontSize: { xs: "2rem", sm: "3rem", md: "3.75rem" },
             mb: 2,
           }}
         >
@@ -73,7 +74,8 @@ function ArticleDetails() {
           sx={{
             fontWeight: 400,
             lineHeight: 1.6,
-            mb: 3,
+            fontSize: { xs: "1.05rem", sm: "1.25rem" },
+            mb: { xs: 2, sm: 3 },
           }}
         >
           {article.description}
@@ -89,10 +91,10 @@ function ArticleDetails() {
           alt={article.title}
           sx={{
             width: "100%",
-            height: { xs: 240, sm: 400 },
+            height: { xs: 220, sm: 320, md: 400 },
             objectFit: "cover",
             borderRadius: 2,
-            mb: 5,
+            mb: { xs: 3, sm: 5 },
           }}
         />
 
@@ -113,10 +115,10 @@ function ArticleDetails() {
         </Box>
       </Box>
 
-      <Divider sx={{ my: 6 }} />
+      <Divider sx={{ my: { xs: 4, sm: 6 } }} />
 
       <Box>
-        <Typography variant="h4" component="h2" sx={{ fontWeight: 700, mb: 4 }}>
+        <Typography variant="h4" component="h2" sx={{ fontWeight: 700, fontSize: { xs: "1.6rem", sm: "2.125rem" }, mb: { xs: 3, sm: 4 } }}>
           Comments ({article.comments.length})
         </Typography>
 
@@ -126,7 +128,7 @@ function ArticleDetails() {
               key={comment.id}
               elevation={0}
               sx={{
-                p: 3,
+                p: { xs: 2, sm: 3 },
                 border: "1px solid",
                 borderColor: "divider",
                 borderRadius: 2,
@@ -156,7 +158,7 @@ function ArticleDetails() {
         </Stack>
       </Box>
 
-      <Divider sx={{ my: 6 }} />
+      <Divider sx={{ my: { xs: 4, sm: 6 } }} />
 
       <Box component="form" onSubmit={handleSubmit}>
         <Typography variant="h5" component="h2" sx={{ fontWeight: 700, mb: 3 }}>

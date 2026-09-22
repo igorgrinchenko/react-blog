@@ -14,7 +14,7 @@ function CategoryFilter() {
   };
 
   return (
-    <Box sx={{ mb: 5 }}>
+    <Box sx={{ mb: { xs: 3, sm: 5 } }}>
       <Typography
         variant="body2"
         color="text.secondary"
