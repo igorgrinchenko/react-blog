@@ -1,10 +1,11 @@
 import { Box, Card, CardContent, Chip, Typography } from "@mui/material";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
-function ArticleCard({ article }) {
+function ArticleCard({ article, onClick }) {
   return (
     <Card
       elevation={0}
+      onClick={onClick}
       sx={{
         height: "100%",
         display: "flex",

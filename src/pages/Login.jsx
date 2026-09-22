@@ -18,6 +18,7 @@ function Login() {
 
   const navigate = useNavigate();
   const login = useAuthStore((state) => state.login);
+  const loading = useAuthStore((state) => state.loading);
   const error = useAuthStore((state) => state.error);
 
   const isDisabledButton = !username.length || !password.length;
@@ -92,9 +93,9 @@ function Login() {
               size="large"
               fullWidth
               sx={{ mt: 1 }}
-              disabled={isDisabledButton}
+              disabled={isDisabledButton || loading}
             >
-              Login
+              {loading ? "Loading..." : "Login"}
             </Button>
           </Box>
           <Typography
