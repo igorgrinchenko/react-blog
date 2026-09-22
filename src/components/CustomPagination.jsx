@@ -15,6 +15,10 @@ function CustomPagination({ articles, setCurrentArticles }) {
     setCurrentArticles(currentArticles);
   }, [page, articles, setCurrentArticles]);
 
+  useEffect(() => {
+    setPage(1);
+  }, [articles]);
+
   const articlesPerPage = 10;
 
   return (
