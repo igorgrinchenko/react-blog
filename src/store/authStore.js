@@ -41,7 +41,7 @@ export const useAuthStore = create(
         } catch (error) {
           set({
             loading: false,
-            error: "Something went wrong. Please try again.",
+            error,
           });
 
           return false;

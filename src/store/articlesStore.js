@@ -1,8 +1,9 @@
 import { create } from "zustand";
-import { getArticles } from "../services/api";
+import { getAllArticles, getFilteredArticles } from "../services/api";
 
 export const useArticlesStore = create((set) => ({
   articles: [],
+  categories: [],
   loading: false,
   error: null,
 
@@ -13,21 +14,42 @@ export const useArticlesStore = create((set) => ({
     });
 
     try {
-      const response = await getArticles();
+      const { data } = await getAllArticles();
+
+      set({
+        articles: data,
+        categories: [
+          "All",
+          ...new Set(data.map((article) => article.category)),
+        ],
+        loading: false,
+      });
+    } catch (error) {
+      set({
+        loading: false,
+        error,
+      });
+    }
+  },
+
+  getFilteredArticles: async (filter) => {
+    set({
+      loading: true,
+      error: null,
+    });
+
+    try {
+      const response = await getFilteredArticles(filter);
 
       set({
         articles: response.data,
         loading: false,
       });
-
-      return true;
     } catch (error) {
       set({
         loading: false,
-        error: "Something went wrong. Please try again.",
+        error,
       });
-
-      return false;
     }
   },
 }));

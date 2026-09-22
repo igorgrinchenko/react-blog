@@ -7,7 +7,9 @@ const api = axios.create({
   },
 });
 
-export const getArticles = () => api.get("/articles");
+export const getAllArticles = () => api.get("/articles");
+export const getFilteredArticles = (filter) =>
+  api.get(`/articles?category=${filter}`);
 
 export const loginUser = (username, password) =>
   api.get("/users", {

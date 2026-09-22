@@ -4,6 +4,7 @@ import { useArticlesStore } from "../store/articlesStore";
 import { Container, Grid, Alert } from "@mui/material";
 import ArticleCard from "../components/ArticleCard";
 import CustomPagination from "../components/CustomPagination";
+import CategoryFilter from "../components/CategoryFilter";
 
 function Home() {
   const [currentArticles, setCurrentArticles] = useState([]);
@@ -14,11 +15,13 @@ function Home() {
 
   useEffect(() => {
     getAllArticles();
-  }, []);
+  }, [getAllArticles]);
 
   return (
     <Container maxWidth="lg" sx={{ pt: 10 }}>
       {error && <Alert severity="error">{error}</Alert>}
+
+      <CategoryFilter />
 
       <Grid container spacing={3}>
         {currentArticles.map((article) => (

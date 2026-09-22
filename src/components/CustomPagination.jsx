@@ -15,7 +15,7 @@ function CustomPagination({ articles, setCurrentArticles }) {
     setCurrentArticles(currentArticles);
   }, [page, articles, setCurrentArticles]);
 
-  const articlesPerPage = 6;
+  const articlesPerPage = 10;
 
   return (
     <Box sx={{ display: "flex", justifyContent: "center", mt: 5 }}>
