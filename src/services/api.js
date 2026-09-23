@@ -20,6 +20,21 @@ export const addComment = async (articleId, comment) => {
   });
 };
 
+export const deleteComment = async (articleId, commentId) => {
+  const response = await api.get(`/articles/${articleId}`);
+
+  const article = response.data;
+
+  const updatedComments = (article.comments || []).filter(
+    (comment) => comment.id !== Number(commentId),
+  );
+
+  return api.put(`/articles/${articleId}`, {
+    ...article,
+    comments: updatedComments,
+  });
+};
+
 export const loginUser = (username, password) =>
   api.get("/users", {
     params: {

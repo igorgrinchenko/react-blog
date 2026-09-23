@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { getArticles, addComment } from "../services/api";
+import { getArticles, addComment, deleteComment } from "../services/api";
 
 export const useArticlesStore = create((set, get) => ({
   allArticles: [],
@@ -45,6 +45,40 @@ export const useArticlesStore = create((set, get) => ({
 
     try {
       const response = await addComment(articleId, comment);
+      const updatedArticle = response.data;
+
+      set((state) => {
+        const updatedAllArticles = state.allArticles.map((article) =>
+          article.id === Number(articleId) ? updatedArticle : article,
+        );
+
+        return {
+          allArticles: updatedAllArticles,
+          loading: false,
+        };
+      });
+
+      get().applyFilters();
+
+      return true;
+    } catch (error) {
+      set({
+        loading: false,
+        error,
+      });
+
+      return false;
+    }
+  },
+
+  deleteComment: async (articleId, commentId) => {
+    set({
+      loading: true,
+      error: null,
+    });
+
+    try {
+      const response = await deleteComment(articleId, commentId);
       const updatedArticle = response.data;
 
       set((state) => {

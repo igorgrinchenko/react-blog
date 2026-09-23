@@ -1,4 +1,7 @@
+import { useState } from "react";
+import { useArticlesStore } from "../store/articlesStore";
 import { formatCommentDate } from "../utils/formatCommentDate";
+import DeleteCommentModal from "./DeleteCommentModal";
 import {
   Divider,
   Box,
@@ -8,12 +11,26 @@ import {
   IconButton,
   Tooltip,
 } from "@mui/material";
-import EditIcon from "@mui/icons-material/Edit";
 import DeleteIcon from "@mui/icons-material/Delete";
 
 function CommentList({ article }) {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [commentId, setCommentId] = useState(null);
+  const deleteComment = useArticlesStore((state) => state.deleteComment);
+
+  const closeModal = () => setIsModalOpen(false);
+
+  const onConfirm = () => {
+    deleteComment(article.id, commentId);
+    setIsModalOpen(false);
+  };
   return (
     <>
+      <DeleteCommentModal
+        open={isModalOpen}
+        onClose={closeModal}
+        onConfirm={onConfirm}
+      />
       <Divider sx={{ my: { xs: 4, sm: 6 } }} />
 
       <Box>
@@ -69,13 +86,13 @@ function CommentList({ article }) {
                   mt: 1.5,
                 }}
               >
-                <Tooltip title="Edit comment">
-                  <IconButton size="small" color="primary">
-                    <EditIcon fontSize="small" />
-                  </IconButton>
-                </Tooltip>
-
-                <Tooltip title="Delete comment">
+                <Tooltip
+                  title="Delete comment"
+                  onClick={() => {
+                    setIsModalOpen(true);
+                    setCommentId(comment.id);
+                  }}
+                >
                   <IconButton size="small" color="error">
                     <DeleteIcon fontSize="small" />
                   </IconButton>
