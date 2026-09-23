@@ -1,15 +1,13 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { useArticlesStore } from "../store/articlesStore";
+import CommentList from "../components/CommentList";
 
 import {
   Box,
   Button,
   Chip,
   Container,
-  Divider,
-  Paper,
-  Stack,
   TextField,
   Typography,
 } from "@mui/material";
@@ -50,7 +48,10 @@ function ArticleDetails() {
   };
 
   return (
-    <Container maxWidth="md" sx={{ pt: { xs: 10, sm: 12 }, pb: { xs: 5, sm: 8 } }}>
+    <Container
+      maxWidth="md"
+      sx={{ pt: { xs: 10, sm: 12 }, pb: { xs: 5, sm: 8 } }}
+    >
       <Box>
         <Chip label={article.category} color="primary" sx={{ mb: 2 }} />
 
@@ -115,50 +116,7 @@ function ArticleDetails() {
         </Box>
       </Box>
 
-      <Divider sx={{ my: { xs: 4, sm: 6 } }} />
-
-      <Box>
-        <Typography variant="h4" component="h2" sx={{ fontWeight: 700, fontSize: { xs: "1.6rem", sm: "2.125rem" }, mb: { xs: 3, sm: 4 } }}>
-          Comments ({article.comments.length})
-        </Typography>
-
-        <Stack spacing={2}>
-          {article.comments.map((comment) => (
-            <Paper
-              key={comment.id}
-              elevation={0}
-              sx={{
-                p: { xs: 2, sm: 3 },
-                border: "1px solid",
-                borderColor: "divider",
-                borderRadius: 2,
-              }}
-            >
-              <Box
-                sx={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                  gap: 2,
-                  mb: 1,
-                }}
-              >
-                <Typography variant="subtitle1" fontWeight={700}>
-                  {comment.author}
-                </Typography>
-
-                <Typography variant="caption" color="text.secondary">
-                  {comment.date}
-                </Typography>
-              </Box>
-
-              <Typography color="text.secondary">{comment.text}</Typography>
-            </Paper>
-          ))}
-        </Stack>
-      </Box>
-
-      <Divider sx={{ my: { xs: 4, sm: 6 } }} />
+      <CommentList article={article} />
 
       <Box component="form" onSubmit={handleSubmit}>
         <Typography variant="h5" component="h2" sx={{ fontWeight: 700, mb: 3 }}>
