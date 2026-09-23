@@ -1,9 +1,20 @@
-import { Divider, Box, Typography, Stack, Paper } from "@mui/material";
+import {
+  Divider,
+  Box,
+  Typography,
+  Stack,
+  Paper,
+  IconButton,
+  Tooltip,
+} from "@mui/material";
+import EditIcon from "@mui/icons-material/Edit";
+import DeleteIcon from "@mui/icons-material/Delete";
 
 function CommentList({ article }) {
   return (
     <>
       <Divider sx={{ my: { xs: 4, sm: 6 } }} />
+
       <Box>
         <Typography
           variant="h4"
@@ -48,10 +59,32 @@ function CommentList({ article }) {
               </Box>
 
               <Typography color="text.secondary">{comment.text}</Typography>
+
+              <Box
+                sx={{
+                  display: "flex",
+                  justifyContent: "flex-end",
+                  gap: 0.5,
+                  mt: 1.5,
+                }}
+              >
+                <Tooltip title="Edit comment">
+                  <IconButton size="small" color="primary">
+                    <EditIcon fontSize="small" />
+                  </IconButton>
+                </Tooltip>
+
+                <Tooltip title="Delete comment">
+                  <IconButton size="small" color="error">
+                    <DeleteIcon fontSize="small" />
+                  </IconButton>
+                </Tooltip>
+              </Box>
             </Paper>
           ))}
         </Stack>
       </Box>
+
       <Divider sx={{ my: { xs: 4, sm: 6 } }} />
     </>
   );
