@@ -1,19 +1,12 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useArticlesStore } from "../store/articlesStore";
 import CommentList from "../components/CommentList";
+import CommentForm from "../components/CommentForm";
 
-import {
-  Box,
-  Button,
-  Chip,
-  Container,
-  TextField,
-  Typography,
-} from "@mui/material";
+import { Box, Chip, Container, Typography } from "@mui/material";
 
 function ArticleDetails() {
-  const [comment, setComment] = useState("");
   const { id } = useParams();
   const allArticles = useArticlesStore((state) => state.allArticles);
   const loading = useArticlesStore((state) => state.loading);
@@ -41,11 +34,6 @@ function ArticleDetails() {
       </Container>
     );
   }
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    console.log(comment);
-  };
 
   return (
     <Container
@@ -117,32 +105,7 @@ function ArticleDetails() {
       </Box>
 
       <CommentList article={article} />
-
-      <Box component="form" onSubmit={handleSubmit}>
-        <Typography variant="h5" component="h2" sx={{ fontWeight: 700, mb: 3 }}>
-          Add a comment
-        </Typography>
-
-        <TextField
-          fullWidth
-          multiline
-          minRows={4}
-          label="Your comment"
-          placeholder="Write your comment..."
-          value={comment}
-          onChange={(event) => setComment(event.target.value)}
-        />
-
-        <Button
-          type="submit"
-          variant="contained"
-          size="large"
-          sx={{ mt: 2 }}
-          disabled={!comment.trim()}
-        >
-          Add comment
-        </Button>
-      </Box>
+      <CommentForm />
     </Container>
   );
 }
