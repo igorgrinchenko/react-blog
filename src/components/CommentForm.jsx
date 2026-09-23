@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useArticlesStore } from "../store/articlesStore";
+import { useAuthStore } from "../store/authStore";
 import { Box, Typography, TextField, Button } from "@mui/material";
 
 function CommentForm({ article }) {
@@ -7,13 +8,14 @@ function CommentForm({ article }) {
 
   const setComment = useArticlesStore((state) => state.setComment);
   const loading = useArticlesStore((state) => state.loading);
+  const user = useAuthStore((state) => state.user);
 
   const handleSubmit = async (event) => {
     event.preventDefault();
 
     const newComment = {
       id: article.comments.length + 1,
-      author: "Ihor",
+      author: user.username,
       text: commentValue.trim(),
       date: new Date().toISOString(),
     };

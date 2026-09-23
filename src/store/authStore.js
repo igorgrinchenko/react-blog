@@ -59,6 +59,7 @@ export const useAuthStore = create(
       name: "auth-storage",
       partialize: (state) => ({
         isLoggedIn: state.isLoggedIn,
+        user: state.user ? { username: state.user.username } : null,
       }),
     },
   ),
