@@ -105,7 +105,7 @@ function ArticleDetails() {
       </Box>
 
       <CommentList article={article} />
-      <CommentForm />
+      <CommentForm article={article} />
     </Container>
   );
 }

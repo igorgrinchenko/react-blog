@@ -1,12 +1,28 @@
-import { Box, Typography, TextField, Button } from "@mui/material";
 import { useState } from "react";
+import { useArticlesStore } from "../store/articlesStore";
+import { Box, Typography, TextField, Button } from "@mui/material";
 
-function CommentForm() {
-  const [comment, setComment] = useState("");
+function CommentForm({ article }) {
+  const [commentValue, setCommentValue] = useState("");
 
-  const handleSubmit = (event) => {
+  const setComment = useArticlesStore((state) => state.setComment);
+  const loading = useArticlesStore((state) => state.loading);
+
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    console.log(comment);
+
+    const newComment = {
+      id: article.comments.length + 1,
+      author: "Ihor",
+      text: commentValue.trim(),
+      date: new Date().toISOString(),
+    };
+
+    const success = await setComment(article.id, newComment);
+
+    if (success) {
+      setCommentValue("");
+    }
   };
 
   return (
@@ -21,8 +37,8 @@ function CommentForm() {
         minRows={4}
         label="Your comment"
         placeholder="Write your comment..."
-        value={comment}
-        onChange={(event) => setComment(event.target.value)}
+        value={commentValue}
+        onChange={(event) => setCommentValue(event.target.value)}
       />
 
       <Button
@@ -30,7 +46,7 @@ function CommentForm() {
         variant="contained"
         size="large"
         sx={{ mt: 2 }}
-        disabled={!comment.trim()}
+        disabled={!commentValue.trim() || loading}
       >
         Add comment
       </Button>

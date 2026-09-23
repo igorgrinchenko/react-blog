@@ -15,7 +15,7 @@ function Home() {
   const loading = useArticlesStore((state) => state.loading);
   const error = useArticlesStore((state) => state.error);
   const getArticles = useArticlesStore((state) => state.getArticles);
-  const articlesPerPage = 10;
+  const articlesPerPage = 9;
   const pageCount = Math.max(1, Math.ceil(articles.length / articlesPerPage));
   const currentPage = Math.min(page, pageCount);
   const currentArticles = articles.slice(
@@ -40,12 +40,19 @@ function Home() {
   }
 
   return (
-    <Container maxWidth="lg" sx={{ pt: { xs: 10, sm: 12 }, pb: { xs: 4, sm: 6 } }}>
+    <Container
+      maxWidth="lg"
+      sx={{ pt: { xs: 10, sm: 12 }, pb: { xs: 4, sm: 6 } }}
+    >
       {error && <Alert severity="error">{error}</Alert>}
 
       <CategoryFilter />
 
-      <Grid container rowSpacing={{ xs: 2, sm: 3 }} columnSpacing={{ xs: 2, sm: 3 }}>
+      <Grid
+        container
+        rowSpacing={{ xs: 2, sm: 3 }}
+        columnSpacing={{ xs: 2, sm: 3 }}
+      >
         {currentArticles.map((article) => (
           <Grid key={article.id} size={{ xs: 12, sm: 6, md: 4 }}>
             <ArticleCard

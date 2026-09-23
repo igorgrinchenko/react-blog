@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { getArticles } from "../services/api";
+import { getArticles, addComment } from "../services/api";
 
 export const useArticlesStore = create((set, get) => ({
   allArticles: [],
@@ -21,9 +21,13 @@ export const useArticlesStore = create((set, get) => ({
 
       set({
         allArticles: data,
-        categories: ["All", ...new Set(data.map((article) => article.category))],
+        categories: [
+          "All",
+          ...new Set(data.map((article) => article.category)),
+        ],
         loading: false,
       });
+
       get().applyFilters();
     } catch (error) {
       set({
@@ -33,18 +37,56 @@ export const useArticlesStore = create((set, get) => ({
     }
   },
 
+  setComment: async (articleId, comment) => {
+    set({
+      loading: true,
+      error: null,
+    });
+
+    try {
+      const response = await addComment(articleId, comment);
+      const updatedArticle = response.data;
+
+      set((state) => {
+        const updatedAllArticles = state.allArticles.map((article) =>
+          article.id === Number(articleId) ? updatedArticle : article,
+        );
+
+        return {
+          allArticles: updatedAllArticles,
+          loading: false,
+        };
+      });
+
+      get().applyFilters();
+
+      return true;
+    } catch (error) {
+      set({
+        loading: false,
+        error,
+      });
+
+      return false;
+    }
+  },
+
   applyFilters: () => {
     const { allArticles, selectedCategory, searchQuery } = get();
+
     const query = searchQuery.trim().toLowerCase();
 
-    set({
-      articles: allArticles.filter((article) => {
-        const matchesCategory =
-          selectedCategory === "All" || article.category === selectedCategory;
-        const text = `${article.title} ${article.description}`.toLowerCase();
+    const filteredArticles = allArticles.filter((article) => {
+      const matchesCategory =
+        selectedCategory === "All" || article.category === selectedCategory;
 
-        return matchesCategory && (!query || text.includes(query));
-      }),
+      const text = `${article.title} ${article.description}`.toLowerCase();
+
+      return matchesCategory && (!query || text.includes(query));
+    });
+
+    set({
+      articles: filteredArticles,
     });
   },
 

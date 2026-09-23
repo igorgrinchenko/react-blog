@@ -9,6 +9,17 @@ const api = axios.create({
 
 export const getArticles = () => api.get("/articles");
 
+export const addComment = async (articleId, comment) => {
+  const response = await api.get(`/articles/${articleId}`);
+
+  const article = response.data;
+
+  return api.put(`/articles/${articleId}`, {
+    ...article,
+    comments: [...(article.comments || []), comment],
+  });
+};
+
 export const loginUser = (username, password) =>
   api.get("/users", {
     params: {
