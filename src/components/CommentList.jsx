@@ -1,3 +1,4 @@
+import { formatCommentDate } from "../utils/formatCommentDate";
 import {
   Divider,
   Box,
@@ -9,16 +10,6 @@ import {
 } from "@mui/material";
 import EditIcon from "@mui/icons-material/Edit";
 import DeleteIcon from "@mui/icons-material/Delete";
-import moment from "moment";
-import "moment/locale/uk";
-
-const formatCommentDate = (date) => {
-  const parsedDate = moment(date);
-
-  return parsedDate.isValid()
-    ? parsedDate.locale("uk").format("D MMMM YYYY, HH:mm")
-    : "Дата недоступна";
-};
 
 function CommentList({ article }) {
   return (

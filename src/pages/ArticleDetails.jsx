@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useArticlesStore } from "../store/articlesStore";
+import { formatCommentDate } from "../utils/formatCommentDate";
 import CommentList from "../components/CommentList";
 import CommentForm from "../components/CommentForm";
 
@@ -71,7 +72,7 @@ function ArticleDetails() {
         </Typography>
 
         <Typography variant="body2" color="text.secondary" sx={{ mb: 4 }}>
-          By {article.author} · {article.date}
+          By {article.author} · {formatCommentDate(article.date)}
         </Typography>
 
         <Box
