@@ -7,7 +7,7 @@ function CommentForm({ article }) {
   const [commentValue, setCommentValue] = useState("");
 
   const setComment = useArticlesStore((state) => state.setComment);
-  const loading = useArticlesStore((state) => state.loading);
+  const commentsLoading = useArticlesStore((state) => state.commentsLoading);
   const user = useAuthStore((state) => state.user);
 
   const handleSubmit = async (event) => {
@@ -48,7 +48,7 @@ function CommentForm({ article }) {
         variant="contained"
         size="large"
         sx={{ mt: 2 }}
-        disabled={!commentValue.trim() || loading}
+        disabled={!commentValue.trim() || commentsLoading}
       >
         Add comment
       </Button>

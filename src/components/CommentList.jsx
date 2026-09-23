@@ -17,12 +17,16 @@ function CommentList({ article }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [commentId, setCommentId] = useState(null);
   const deleteComment = useArticlesStore((state) => state.deleteComment);
+  const commentsLoading = useArticlesStore((state) => state.commentsLoading);
 
   const closeModal = () => setIsModalOpen(false);
 
-  const onConfirm = () => {
-    deleteComment(article.id, commentId);
-    setIsModalOpen(false);
+  const onConfirm = async () => {
+    const success = await deleteComment(article.id, commentId);
+
+    if (success) {
+      setIsModalOpen(false);
+    }
   };
   return (
     <>
@@ -30,6 +34,7 @@ function CommentList({ article }) {
         open={isModalOpen}
         onClose={closeModal}
         onConfirm={onConfirm}
+        loading={commentsLoading}
       />
       <Divider sx={{ my: { xs: 4, sm: 6 } }} />
 

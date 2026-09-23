@@ -8,6 +8,7 @@ export const useArticlesStore = create((set, get) => ({
   selectedCategory: "All",
   searchQuery: "",
   loading: false,
+  commentsLoading: false,
   error: null,
 
   getArticles: async () => {
@@ -39,7 +40,7 @@ export const useArticlesStore = create((set, get) => ({
 
   setComment: async (articleId, comment) => {
     set({
-      loading: true,
+      commentsLoading: true,
       error: null,
     });
 
@@ -54,7 +55,7 @@ export const useArticlesStore = create((set, get) => ({
 
         return {
           allArticles: updatedAllArticles,
-          loading: false,
+          commentsLoading: false,
         };
       });
 
@@ -63,7 +64,7 @@ export const useArticlesStore = create((set, get) => ({
       return true;
     } catch (error) {
       set({
-        loading: false,
+        commentsLoading: false,
         error,
       });
 
@@ -73,7 +74,7 @@ export const useArticlesStore = create((set, get) => ({
 
   deleteComment: async (articleId, commentId) => {
     set({
-      loading: true,
+      commentsLoading: true,
       error: null,
     });
 
@@ -88,7 +89,7 @@ export const useArticlesStore = create((set, get) => ({
 
         return {
           allArticles: updatedAllArticles,
-          loading: false,
+          commentsLoading: false,
         };
       });
 
@@ -97,7 +98,7 @@ export const useArticlesStore = create((set, get) => ({
       return true;
     } catch (error) {
       set({
-        loading: false,
+        commentsLoading: false,
         error,
       });
 
