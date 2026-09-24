@@ -9,14 +9,20 @@ const api = axios.create({
 
 export const getArticles = () => api.get("/articles");
 
+const normalizeCommentId = (comment) => ({
+  ...comment,
+  id: Number(comment.id),
+});
+
 export const addComment = async (articleId, comment) => {
   const response = await api.get(`/articles/${articleId}`);
 
   const article = response.data;
+  const comments = (article.comments || []).map(normalizeCommentId);
 
   return api.put(`/articles/${articleId}`, {
     ...article,
-    comments: [...(article.comments || []), comment],
+    comments: [...comments, normalizeCommentId(comment)],
   });
 };
 
@@ -25,9 +31,9 @@ export const deleteComment = async (articleId, commentId) => {
 
   const article = response.data;
 
-  const updatedComments = (article.comments || []).filter(
-    (comment) => comment.id !== Number(commentId),
-  );
+  const updatedComments = (article.comments || [])
+    .map(normalizeCommentId)
+    .filter((comment) => comment.id !== Number(commentId));
 
   return api.put(`/articles/${articleId}`, {
     ...article,

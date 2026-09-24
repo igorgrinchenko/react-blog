@@ -50,7 +50,7 @@ export const useArticlesStore = create((set, get) => ({
 
       set((state) => {
         const updatedAllArticles = state.allArticles.map((article) =>
-          article.id === Number(articleId) ? updatedArticle : article,
+          String(article.id) === String(articleId) ? updatedArticle : article,
         );
 
         return {
@@ -84,7 +84,7 @@ export const useArticlesStore = create((set, get) => ({
 
       set((state) => {
         const updatedAllArticles = state.allArticles.map((article) =>
-          article.id === Number(articleId) ? updatedArticle : article,
+          String(article.id) === String(articleId) ? updatedArticle : article,
         );
 
         return {

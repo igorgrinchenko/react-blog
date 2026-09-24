@@ -13,8 +13,13 @@ function CommentForm({ article }) {
   const handleSubmit = async (event) => {
     event.preventDefault();
 
+    const nextCommentId = Math.max(
+      0,
+      ...article.comments.map((comment) => Number(comment.id) || 0),
+    ) + 1;
+
     const newComment = {
-      id: article.comments.length + 1,
+      id: nextCommentId,
       author: user.username,
       text: commentValue.trim(),
       date: new Date().toISOString(),

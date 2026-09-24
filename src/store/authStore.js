@@ -61,6 +61,15 @@ export const useAuthStore = create(
         isLoggedIn: state.isLoggedIn,
         user: state.user ? { username: state.user.username } : null,
       }),
+      merge: (persistedState, currentState) => ({
+        ...currentState,
+        ...persistedState,
+        user:
+          persistedState?.user ??
+          (persistedState?.username
+            ? { username: persistedState.username }
+            : null),
+      }),
     },
   ),
 );
